@@ -1816,11 +1816,13 @@ input, select, textarea {
 				transition: border-bottom-width .25s ease-in-out;
 			}
 
-			#nav a span {
+			#nav a span,
+			#work section div div a span {
 				display: block;
 				position: absolute;
 				background: #222222;
-				color: #ffffff;
+				/* color: #ffffff; */
+				color: red;
 				top: -2.75em;
 				font-size: 0.3em;
 				height: 2.25em;
@@ -1835,7 +1837,8 @@ input, select, textarea {
 				margin-left: -2.75em;
 			}
 
-				#nav a span:after {
+				#nav a span:after,
+				#work section div a span:after {
 					content: '';
 					display: block;
 					position: absolute;
@@ -1851,7 +1854,8 @@ input, select, textarea {
 				opacity: 1.0;
 			}
 
-				#nav a:hover span {
+				#nav a:hover span,
+				#work section div a:hover span {
 					opacity: 1.0;
 				}
 
@@ -2039,7 +2043,8 @@ input, select, textarea {
 						object-position: center;
 					}
 
-					#main > .panel.intro .pic .arrow {
+					#main > .panel.intro .pic .arrow,
+					#work .panel .pic .arrow{
 						display: block;
 						position: absolute;
 						right: 0;
@@ -2060,18 +2065,21 @@ input, select, textarea {
 						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 					}
 
-						#main > .panel.intro .pic .arrow:before {
+						#main > .panel.intro .pic .arrow:before,
+						#main > .panel .pic .arrow:before {
 							position: relative;
 							padding-right: 0;
 							top: 0.125em;
 						}
 
-						#main > .panel.intro .pic .arrow span {
+						#main > .panel.intro .pic .arrow span,
+						#main > .panel .pic .arrow span {
 							display: block;
 							text-indent: -9999px;
 						}
 
-					#main > .panel.intro .pic:hover .arrow {
+					#main > .panel.intro .pic:hover .arrow,
+					#main .panel .pic:hover .arrow {
 						width: 3em;
 						padding-right: 0.25em;
 					}
