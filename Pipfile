@@ -8,6 +8,7 @@ flask = "*"
 python-dotenv = "*"
 flask-wtf = "*"
 wtforms = "*"
+gunicorn = "*"
 
 [dev-packages]
 
