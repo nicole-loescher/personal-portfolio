@@ -76,6 +76,7 @@ input, select, textarea {
 
 	.row {
 		display: flex;
+		flex-direction: column;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
@@ -142,7 +143,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 55%;
 		}
 
 		.row > .off-4 {
@@ -1548,11 +1549,13 @@ input, select, textarea {
 
 	.image {
 		display: inline-block;
+		box-shadow: 4px 4px 4px rgb(217 153 136 / 50%);
 	}
 
 		.image img {
 			display: block;
 			width: 100%;
+			box-shadow: 4px 4px 4px rgb(217 153 136 / 50%);
 		}
 
 		.image.fit {
@@ -1821,8 +1824,7 @@ input, select, textarea {
 				display: block;
 				position: absolute;
 				background: #222222;
-				/* color: #ffffff; */
-				color: red;
+				color: #ffffff;
 				top: -2.75em;
 				font-size: 0.3em;
 				height: 2.25em;
